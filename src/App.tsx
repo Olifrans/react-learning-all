@@ -4,12 +4,9 @@ function App() {
   return (
     <>
       <h1>Comentários realizados</h1>
-      <Comentarios />
-      <Comentarios />
-      <Comentarios />
-      <Comentarios />
-      <Comentarios />
-      <Comentarios />
+      <Comentarios titulo="Cometarios um" author="Olifrans" />
+      <Comentarios titulo="Cometarios DOIS" author="Olifrans" />
+      <Comentarios titulo="Cometarios TRÊS" author="Olifrans" />
     </>
   );
 }
