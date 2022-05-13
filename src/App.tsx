@@ -9,7 +9,7 @@ function App() {
     <>
       <ComponenteUm />
       <ComponenteDois />
-      <ComponenteTres />
+      <ComponenteTres titulo="Teste texto" />
     </>
   );
 }
