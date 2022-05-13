@@ -4,9 +4,10 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(224, 210, 210);
   color: white;
   display: flex;
+  flex-flow: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   /* flex-direction: column;
@@ -16,7 +17,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
-.componentes {
+.componente {
   background-color: rgb(30, 30, 30);
   margin: 10px;
   padding: 20px;
