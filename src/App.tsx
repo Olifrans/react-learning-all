@@ -4,6 +4,7 @@ import ComponenteDois from "./components/ComponenteDois";
 import ComponenteUm from "./components/ComponenteUm";
 import ComponenteTres from "./components/ComponenteTres";
 import ComponenteQuatro from "./components/ComponenteQuatro";
+// import ComponenteCinco from "./components/ComponenteCinco";
 
 function App() {
   return (
@@ -11,15 +12,7 @@ function App() {
       <ComponenteUm />
       <ComponenteDois />
       <ComponenteTres titulo="Teste texto" subtitulo="Subtitulo" />
-      <ComponenteQuatro titulo="Teste quatro">
-        <ul>
-          <li>Teste 01</li>
-          <li>Teste 02</li>
-          <li>Teste 03</li>
-          <li>Teste 04</li>
-          <li>Teste 05</li>
-        </ul>
-      </ComponenteQuatro>
+      <ComponenteQuatro titulo="Teste quatro"/>
     </>
   );
 }
