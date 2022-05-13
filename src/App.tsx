@@ -9,11 +9,14 @@ import ComponenteSete from "./components/ComponenteSete";
 import ComponenteOito from "./components/ComponenteOito";
 import ComponenteNove from "./components/ComponenteNove";
 import ComponenteDez from "./components/ComponenteDez";
+import ComponentePai from "./comunicacao_direta/ComponentePai";
 
 function App() {
   return (
     <>
-      <ComponenteDez titulo="Componente Dez" corTexto="red"/>
+      <ComponentePai titulo="Comunicação direta entre Pai e Filho" />
+
+      <ComponenteDez titulo="Componente Dez" corTexto="red" />
       <ComponenteNove titulo="Componente Nove" nome="Marcos" valor={4} />
       <ComponenteOito titulo="Componente Oito" nome="Marcos" valor={4} />
       <ComponenteSete titulo="Componente Sete" valor={100} />
