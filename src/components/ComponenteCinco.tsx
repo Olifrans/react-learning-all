@@ -1,7 +1,7 @@
 const ComponenteCinco = (props) => {
   return (
     <>
-      <p>Dados do componente cinco</p>
+      <p>Componente Cinco Dados</p>
       <p>Dados: {props.dados}</p>
 
       <ul>

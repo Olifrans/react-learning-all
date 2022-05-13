@@ -5,18 +5,17 @@ import ComponenteUm from "./components/ComponenteUm";
 import ComponenteTres from "./components/ComponenteTres";
 import ComponenteQuatro from "./components/ComponenteQuatro";
 import ComponenteSeis from "./components/ComponenteSeis";
-// import ComponenteCinco from "./components/ComponenteCinco";
+import ComponenteSete from "./components/ComponenteSete";
 
 function App() {
   return (
     <>
-     <ComponenteSeis  titulo="Teste componente seis"/>
-     <ComponenteQuatro titulo="Teste componente quatro"/>
-     <ComponenteTres titulo="Teste componente três" subtitulo="Subtitulo" />
+      <ComponenteSete titulo="Componente Sete" valor={100} />
+      <ComponenteSeis titulo="Componente Seis" />
+      <ComponenteQuatro titulo="Componente Quatro" />
+      <ComponenteTres titulo="Componente Três" subtitulo="Subtitulo" />
       <ComponenteDois />
-      <ComponenteUm />   
-      
-     
+      <ComponenteUm />
     </>
   );
 }
