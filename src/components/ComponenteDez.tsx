@@ -1,6 +1,6 @@
 export default function ComponenteDez(props) {
 
-  const estilo = { color: "White", padding: "10px", background: "red" };
+  //const estilo = { color: "White", padding: "10px", background: "red" };
 
   return (
     <div className="componente">
@@ -8,7 +8,7 @@ export default function ComponenteDez(props) {
       <div className="componente">
         <p className="titulo">Titulo: {props.titulo}</p>
 
-        <p style={estilo}>Titulo de analise</p>
+        <p style={{color: props.corTexto}}>Titulo de analise</p>
       </div>
     </div>
   );

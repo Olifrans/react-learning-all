@@ -13,7 +13,7 @@ import ComponenteDez from "./components/ComponenteDez";
 function App() {
   return (
     <>
-      <ComponenteDez titulo="Componente Dez" />
+      <ComponenteDez titulo="Componente Dez" corTexto="red"/>
       <ComponenteNove titulo="Componente Nove" nome="Marcos" valor={4} />
       <ComponenteOito titulo="Componente Oito" nome="Marcos" valor={4} />
       <ComponenteSete titulo="Componente Sete" valor={100} />
