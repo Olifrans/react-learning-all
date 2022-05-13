@@ -1,12 +1,12 @@
-import Comentarios from "./components/Comentarios";
+import "./App.css";
+
+import ComponenteUm from "./components/ComponenteUm";
 
 function App() {
   return (
     <>
-      <h1>Comentários realizados</h1>
-      <Comentarios titulo="Cometarios um" author="Olifrans" />
-      <Comentarios titulo="Cometarios DOIS" author="Olifrans" />
-      <Comentarios titulo="Cometarios TRÊS" author="Olifrans" />
+      <ComponenteUm />
+      <ComponenteUm />
     </>
   );
 }

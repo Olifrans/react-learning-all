@@ -1,3 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  /* flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.componentes {
+  background-color: rgb(30, 30, 30);
+  margin: 10px;
+  padding: 20px;
+}
+
+
+
+
+/*
 .comment {
   min-width: 500px;
   padding: 20px;
@@ -27,3 +55,5 @@
   font-size: 0.8em;
   color: black;
 }
+
+*/
