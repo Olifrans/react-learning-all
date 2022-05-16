@@ -3,7 +3,7 @@ import ComponenteFilha from "./ComponenteFilha";
 export default function ComponenteMae(props) {
   
   function click() {
-    console.log("Você deu um click, no botão da filha");
+    console.log("Ateção! você Clickou, no botão da filha");
   }
 
   return (

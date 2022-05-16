@@ -2,7 +2,8 @@ export default function ComponenteFilha(props) {
   return (
     <div className="componente">
       <p className="titulo">Titulo: {props.titulo}</p>
-      <button className="primary" onClick={props.ehClick}>Click</button>
+      
+      <button style={{color: "white", background: "green", borderBottom: "10px"}} onClick={props.ehClick}>Click</button>
     </div>
   );
 }
