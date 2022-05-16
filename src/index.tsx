@@ -4,11 +4,7 @@ import App from "./App";
 
 
 // const root = document.querySelector("#root");
-
 // ReactDOM.createRoot(root).render(<App />);
-
-
-
 
 
 const root = ReactDOM.createRoot(
