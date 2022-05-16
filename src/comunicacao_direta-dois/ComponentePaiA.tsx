@@ -5,7 +5,7 @@ export default function ComponentePaiA(props) {
     <div className="componente">
       <p>Pai</p>
 
-      <ComponenteFilhoA nome={props.nome} />
+      <ComponenteFilhoA nome={...props} />
     </div>
   );
 }
