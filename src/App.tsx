@@ -1,12 +1,20 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
-  var valor = 0;
+  // var valor = 0;
+
+  // function incrementar() {
+  //   valor++;
+  //   console.log(valor);
+  // }
+
+  const [valor, setValor] = useState(50);
 
   function incrementar() {
-    valor++;
-    console.log(valor);
+    setValor(valor + 1);
   }
+
   return (
     <>
       <h1>Reacct Hooks</h1>
