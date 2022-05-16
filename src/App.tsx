@@ -12,12 +12,14 @@ import ComponenteDez from "./components/ComponenteDez";
 import ComponentePai from "./comunicacao_direta/ComponentePai";
 import ComponenteMae from "./comunicacao_indireta/ComponenteMae";
 import ComponenteA from "./comunicacao_indireta_dois/ComponenteA";
+import ComponenteAvoA from "./comunicacao_direta-dois/ComponenteAvoA";
 
 function App() {
   return (
     <>
-      <ComponenteA titulo="Comunicação indireta v2, componentes (A--B)" />
+      <ComponenteAvoA titulo="Complexicidade entre os componentes" />
 
+      <ComponenteA titulo="Comunicação indireta v2, componentes (A--B)" />
       <ComponenteMae titulo="Comunicação indireta entre Mãe e Filha" />
       <ComponentePai titulo="Comunicação direta entre Pai e Filho" />
       <ComponenteDez titulo="Componente Dez" corTexto="red" />
